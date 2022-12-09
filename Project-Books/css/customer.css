@@ -1,0 +1,133 @@
+body{
+    
+    background-color: #f9f9f9;
+}
+
+.navbar{
+    background: #eee !important;
+    border-bottom: 1px solid #eee ;
+}
+ul{
+    margin-left: 30px;
+}
+/* banar img */
+.banar {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/banar.jpg), no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 80vh;
+    text-align: center;
+} 
+.banar .lib-info{
+    padding-top: 140px;
+    margin: auto;
+}
+.banar .lib-info h4{
+    font-family: 'Cairo', sans-serif;
+    font-size: 67px;
+    font-weight: bold;
+    padding: 10px;
+}
+.banar .lib-info p {
+    margin-top: -10px;
+    font-size: 18px ;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 30px;
+}
+/* Start books*/
+.books{
+    
+    margin: 50px 0;
+}
+.card{
+    margin-bottom:30px ;
+}
+.img-cover{
+   
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-cover .card-img-top{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-title a {
+    
+    color: #555;
+    transition: 0.3s;
+
+}
+.card-title a:hover{
+    text-decoration: none;
+    color:#777 ;
+}
+.card-text{
+    color:#777 ;
+    line-height: 30px;
+}
+.custom-btn{
+    cursor: pointer;
+    padding: 10px;
+    border:  1px solid #555 ;
+    outline: none;
+    transition: 0.4s;
+    width: 100%;
+}
+.custom-btn:hover{
+    color: white;
+    background-color:#555 ;
+}
+.custom-btn:hover a{
+    color: white;
+}
+.custom-btn a {
+    display: block;
+    color: #555;
+    font-size: 20px ;
+}
+.custom-btn a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/* End books*/
+/* Start Footer*/
+
+footer{
+    background-color:white ;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+/* End Footer*/
+ 
+/* Start show book*/
+
+.book-cover{
+    overflow: hidden;
+}
+.book-cover img{
+    width: 100%;
+}
+.book-content{
+    margin-top: 20px;
+}
+.book-content a{
+    color: #555;
+}
+.book-content a:hover{
+    color: #777;
+    text-decoration: none;
+}
+.book-content p{
+    line-height: 30px;
+}
+
+
+
+/* End show book*/
+
+
